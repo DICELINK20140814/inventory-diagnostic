@@ -39,7 +39,7 @@ export default function Home() {
 
         {/* ボタン */}
         <button
-          onClick={() => router.push('/diagnosis')}
+          onClick={() => router.push("/inventory")}
           className="bg-[#CEC1A1] text-[#0A2643] font-bold px-8 py-4 rounded-lg hover:opacity-90 transition"
         >
           診断を開始する
